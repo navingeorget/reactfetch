@@ -45,7 +45,7 @@ function App() {
         <div className="row g-5 p-5">
           {data.map((item, index) => (
             <div key={index} className="col-md-3">
-              <Card className='shadow-lg' style={{ width: '18rem', height: "350px" }}>
+              <Card className='shadow-lg' style={{ width: '100%', height: "350px" }}>
                 <Card.Body>
                   <Card.Text> <strong>Post ID:</strong>  {item.postId}</Card.Text>
                   <Card.Text> <strong>ID:</strong> {item.id}</Card.Text>
